@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAD19FD7220E379A00AFA0B7 /* StockFish.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FD1220E379A00AFA0B7 /* StockFish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAD19FD8220E379A00AFA0B7 /* ChessEngineProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FD2220E379A00AFA0B7 /* ChessEngineProtocol.swift */; };
+		EAD19FD9220E379A00AFA0B7 /* ChessGameDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FD3220E379A00AFA0B7 /* ChessGameDelegate.swift */; };
+		EAD19FDA220E379A00AFA0B7 /* StockFish.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FD4220E379A00AFA0B7 /* StockFish.mm */; };
+		EAD19FDB220E379A00AFA0B7 /* StockFishEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FD5220E379A00AFA0B7 /* StockFishEngine.swift */; };
+		EAD19FDC220E379A00AFA0B7 /* ChessModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FD6220E379A00AFA0B7 /* ChessModels.swift */; };
+		EAD19FE2220E387700AFA0B7 /* ChessBoardConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FE1220E387700AFA0B7 /* ChessBoardConstants.swift */; };
+		EAD19FE5220E391800AFA0B7 /* ChessEngine-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FE4220E391800AFA0B7 /* ChessEngine-Bridging.h */; };
+		EAD1A011220E396A00AFA0B7 /* endgame.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FE7220E396900AFA0B7 /* endgame.h */; };
+		EAD1A012220E396A00AFA0B7 /* book.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FE8220E396900AFA0B7 /* book.h */; };
+		EAD1A013220E396A00AFA0B7 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FE9220E396900AFA0B7 /* thread.cpp */; };
+		EAD1A014220E396A00AFA0B7 /* timeman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FEA220E396900AFA0B7 /* timeman.cpp */; };
+		EAD1A015220E396A00AFA0B7 /* ucioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FEB220E396900AFA0B7 /* ucioption.cpp */; };
+		EAD1A016220E396A00AFA0B7 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FEC220E396900AFA0B7 /* types.h */; };
+		EAD1A017220E396A00AFA0B7 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FED220E396900AFA0B7 /* misc.cpp */; };
+		EAD1A018220E396A00AFA0B7 /* misc.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FEE220E396900AFA0B7 /* misc.h */; };
+		EAD1A019220E396A00AFA0B7 /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FEF220E396900AFA0B7 /* bitboard.cpp */; };
+		EAD1A01A220E396A00AFA0B7 /* book.bin in Resources */ = {isa = PBXBuildFile; fileRef = EAD19FF0220E396900AFA0B7 /* book.bin */; };
+		EAD1A01B220E396A00AFA0B7 /* material.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FF1220E396900AFA0B7 /* material.h */; };
+		EAD1A01C220E396A00AFA0B7 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FF2220E396900AFA0B7 /* benchmark.cpp */; };
+		EAD1A01D220E396A00AFA0B7 /* movepick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FF3220E396900AFA0B7 /* movepick.cpp */; };
+		EAD1A01E220E396A00AFA0B7 /* bitboard.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FF4220E396900AFA0B7 /* bitboard.h */; };
+		EAD1A01F220E396A00AFA0B7 /* pawns.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FF5220E396900AFA0B7 /* pawns.h */; };
+		EAD1A020220E396A00AFA0B7 /* bitcount.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FF6220E396900AFA0B7 /* bitcount.h */; };
+		EAD1A021220E396A00AFA0B7 /* bitbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FF7220E396900AFA0B7 /* bitbase.cpp */; };
+		EAD1A022220E396A00AFA0B7 /* evaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FF8220E396900AFA0B7 /* evaluate.cpp */; };
+		EAD1A023220E396A00AFA0B7 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FF9220E396900AFA0B7 /* thread.h */; };
+		EAD1A024220E396A00AFA0B7 /* movegen.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FFA220E396900AFA0B7 /* movegen.h */; };
+		EAD1A025220E396A00AFA0B7 /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FFB220E396900AFA0B7 /* search.cpp */; };
+		EAD1A026220E396A00AFA0B7 /* movepick.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FFC220E396900AFA0B7 /* movepick.h */; };
+		EAD1A027220E396A00AFA0B7 /* psqtab.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FFD220E396900AFA0B7 /* psqtab.h */; };
+		EAD1A028220E396A00AFA0B7 /* iphone.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD19FFE220E396900AFA0B7 /* iphone.h */; };
+		EAD1A029220E396A00AFA0B7 /* notation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD19FFF220E396900AFA0B7 /* notation.cpp */; };
+		EAD1A02A220E396A00AFA0B7 /* book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD1A000220E396900AFA0B7 /* book.cpp */; };
+		EAD1A02B220E396A00AFA0B7 /* ucioption.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1A001220E396900AFA0B7 /* ucioption.h */; };
+		EAD1A02C220E396A00AFA0B7 /* evaluate.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1A002220E396900AFA0B7 /* evaluate.h */; };
+		EAD1A02D220E396A00AFA0B7 /* rkiss.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1A003220E396900AFA0B7 /* rkiss.h */; };
+		EAD1A02E220E396A00AFA0B7 /* notation.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1A004220E396900AFA0B7 /* notation.h */; };
+		EAD1A02F220E396A00AFA0B7 /* pawns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD1A005220E396900AFA0B7 /* pawns.cpp */; };
+		EAD1A030220E396A00AFA0B7 /* movegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD1A006220E396900AFA0B7 /* movegen.cpp */; };
+		EAD1A031220E396A00AFA0B7 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD1A007220E396900AFA0B7 /* material.cpp */; };
+		EAD1A032220E396A00AFA0B7 /* tt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD1A008220E396900AFA0B7 /* tt.cpp */; };
+		EAD1A033220E396A00AFA0B7 /* search.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1A009220E396900AFA0B7 /* search.h */; };
+		EAD1A034220E396A00AFA0B7 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1A00A220E396900AFA0B7 /* platform.h */; };
+		EAD1A035220E396A00AFA0B7 /* tt.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1A00B220E396900AFA0B7 /* tt.h */; };
+		EAD1A036220E396A00AFA0B7 /* position.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1A00C220E396900AFA0B7 /* position.h */; };
+		EAD1A037220E396A00AFA0B7 /* timeman.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1A00D220E396900AFA0B7 /* timeman.h */; };
+		EAD1A038220E396A00AFA0B7 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD1A00E220E396900AFA0B7 /* position.cpp */; };
+		EAD1A039220E396A00AFA0B7 /* uci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD1A00F220E396900AFA0B7 /* uci.cpp */; };
+		EAD1A03A220E396A00AFA0B7 /* endgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAD1A010220E396900AFA0B7 /* endgame.cpp */; };
+		EAD1A03C220E3A6700AFA0B7 /* ChessEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD1A03B220E3A6700AFA0B7 /* ChessEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAD19FC6220E375000AFA0B7 /* ChessEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChessEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD19FCA220E375000AFA0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD19FD1220E379A00AFA0B7 /* StockFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockFish.h; sourceTree = "<group>"; };
+		EAD19FD2220E379A00AFA0B7 /* ChessEngineProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessEngineProtocol.swift; sourceTree = "<group>"; };
+		EAD19FD3220E379A00AFA0B7 /* ChessGameDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessGameDelegate.swift; sourceTree = "<group>"; };
+		EAD19FD4220E379A00AFA0B7 /* StockFish.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StockFish.mm; sourceTree = "<group>"; };
+		EAD19FD5220E379A00AFA0B7 /* StockFishEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockFishEngine.swift; sourceTree = "<group>"; };
+		EAD19FD6220E379A00AFA0B7 /* ChessModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChessModels.swift; sourceTree = "<group>"; };
+		EAD19FE1220E387700AFA0B7 /* ChessBoardConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessBoardConstants.swift; sourceTree = "<group>"; };
+		EAD19FE4220E391800AFA0B7 /* ChessEngine-Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChessEngine-Bridging.h"; sourceTree = "<group>"; };
+		EAD19FE7220E396900AFA0B7 /* endgame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endgame.h; sourceTree = "<group>"; };
+		EAD19FE8220E396900AFA0B7 /* book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = book.h; sourceTree = "<group>"; };
+		EAD19FE9220E396900AFA0B7 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		EAD19FEA220E396900AFA0B7 /* timeman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timeman.cpp; sourceTree = "<group>"; };
+		EAD19FEB220E396900AFA0B7 /* ucioption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ucioption.cpp; sourceTree = "<group>"; };
+		EAD19FEC220E396900AFA0B7 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		EAD19FED220E396900AFA0B7 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = misc.cpp; sourceTree = "<group>"; };
+		EAD19FEE220E396900AFA0B7 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		EAD19FEF220E396900AFA0B7 /* bitboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitboard.cpp; sourceTree = "<group>"; };
+		EAD19FF0220E396900AFA0B7 /* book.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = book.bin; sourceTree = "<group>"; };
+		EAD19FF1220E396900AFA0B7 /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		EAD19FF2220E396900AFA0B7 /* benchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = benchmark.cpp; sourceTree = "<group>"; };
+		EAD19FF3220E396900AFA0B7 /* movepick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movepick.cpp; sourceTree = "<group>"; };
+		EAD19FF4220E396900AFA0B7 /* bitboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitboard.h; sourceTree = "<group>"; };
+		EAD19FF5220E396900AFA0B7 /* pawns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pawns.h; sourceTree = "<group>"; };
+		EAD19FF6220E396900AFA0B7 /* bitcount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitcount.h; sourceTree = "<group>"; };
+		EAD19FF7220E396900AFA0B7 /* bitbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitbase.cpp; sourceTree = "<group>"; };
+		EAD19FF8220E396900AFA0B7 /* evaluate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = evaluate.cpp; sourceTree = "<group>"; };
+		EAD19FF9220E396900AFA0B7 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		EAD19FFA220E396900AFA0B7 /* movegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movegen.h; sourceTree = "<group>"; };
+		EAD19FFB220E396900AFA0B7 /* search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = search.cpp; sourceTree = "<group>"; };
+		EAD19FFC220E396900AFA0B7 /* movepick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movepick.h; sourceTree = "<group>"; };
+		EAD19FFD220E396900AFA0B7 /* psqtab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psqtab.h; sourceTree = "<group>"; };
+		EAD19FFE220E396900AFA0B7 /* iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iphone.h; sourceTree = "<group>"; };
+		EAD19FFF220E396900AFA0B7 /* notation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = notation.cpp; sourceTree = "<group>"; };
+		EAD1A000220E396900AFA0B7 /* book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = book.cpp; sourceTree = "<group>"; };
+		EAD1A001220E396900AFA0B7 /* ucioption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucioption.h; sourceTree = "<group>"; };
+		EAD1A002220E396900AFA0B7 /* evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evaluate.h; sourceTree = "<group>"; };
+		EAD1A003220E396900AFA0B7 /* rkiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rkiss.h; sourceTree = "<group>"; };
+		EAD1A004220E396900AFA0B7 /* notation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notation.h; sourceTree = "<group>"; };
+		EAD1A005220E396900AFA0B7 /* pawns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pawns.cpp; sourceTree = "<group>"; };
+		EAD1A006220E396900AFA0B7 /* movegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movegen.cpp; sourceTree = "<group>"; };
+		EAD1A007220E396900AFA0B7 /* material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = material.cpp; sourceTree = "<group>"; };
+		EAD1A008220E396900AFA0B7 /* tt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tt.cpp; sourceTree = "<group>"; };
+		EAD1A009220E396900AFA0B7 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		EAD1A00A220E396900AFA0B7 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		EAD1A00B220E396900AFA0B7 /* tt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tt.h; sourceTree = "<group>"; };
+		EAD1A00C220E396900AFA0B7 /* position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = position.h; sourceTree = "<group>"; };
+		EAD1A00D220E396900AFA0B7 /* timeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeman.h; sourceTree = "<group>"; };
+		EAD1A00E220E396900AFA0B7 /* position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = position.cpp; sourceTree = "<group>"; };
+		EAD1A00F220E396900AFA0B7 /* uci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uci.cpp; sourceTree = "<group>"; };
+		EAD1A010220E396900AFA0B7 /* endgame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = endgame.cpp; sourceTree = "<group>"; };
+		EAD1A03B220E3A6700AFA0B7 /* ChessEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessEngine.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD19FC3220E375000AFA0B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAD19FBC220E375000AFA0B7 = {
+			isa = PBXGroup;
+			children = (
+				EAD19FC8220E375000AFA0B7 /* ChessEngine */,
+				EAD19FC7220E375000AFA0B7 /* Products */,
+				EAD19FE6220E396900AFA0B7 /* StockFish */,
+				EAD19FE3220E391800AFA0B7 /* SupportingFiles */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD19FC7220E375000AFA0B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD19FC6220E375000AFA0B7 /* ChessEngine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD19FC8220E375000AFA0B7 /* ChessEngine */ = {
+			isa = PBXGroup;
+			children = (
+				EAD1A03B220E3A6700AFA0B7 /* ChessEngine.h */,
+				EAD19FE1220E387700AFA0B7 /* ChessBoardConstants.swift */,
+				EAD19FD2220E379A00AFA0B7 /* ChessEngineProtocol.swift */,
+				EAD19FD3220E379A00AFA0B7 /* ChessGameDelegate.swift */,
+				EAD19FD6220E379A00AFA0B7 /* ChessModels.swift */,
+				EAD19FCA220E375000AFA0B7 /* Info.plist */,
+				EAD19FDD220E37D000AFA0B7 /* StockFish */,
+			);
+			path = ChessEngine;
+			sourceTree = "<group>";
+		};
+		EAD19FDD220E37D000AFA0B7 /* StockFish */ = {
+			isa = PBXGroup;
+			children = (
+				EAD19FD1220E379A00AFA0B7 /* StockFish.h */,
+				EAD19FD4220E379A00AFA0B7 /* StockFish.mm */,
+				EAD19FD5220E379A00AFA0B7 /* StockFishEngine.swift */,
+			);
+			path = StockFish;
+			sourceTree = "<group>";
+		};
+		EAD19FE3220E391800AFA0B7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EAD19FE4220E391800AFA0B7 /* ChessEngine-Bridging.h */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		EAD19FE6220E396900AFA0B7 /* StockFish */ = {
+			isa = PBXGroup;
+			children = (
+				EAD19FE7220E396900AFA0B7 /* endgame.h */,
+				EAD19FE8220E396900AFA0B7 /* book.h */,
+				EAD19FE9220E396900AFA0B7 /* thread.cpp */,
+				EAD19FEA220E396900AFA0B7 /* timeman.cpp */,
+				EAD19FEB220E396900AFA0B7 /* ucioption.cpp */,
+				EAD19FEC220E396900AFA0B7 /* types.h */,
+				EAD19FED220E396900AFA0B7 /* misc.cpp */,
+				EAD19FEE220E396900AFA0B7 /* misc.h */,
+				EAD19FEF220E396900AFA0B7 /* bitboard.cpp */,
+				EAD19FF0220E396900AFA0B7 /* book.bin */,
+				EAD19FF1220E396900AFA0B7 /* material.h */,
+				EAD19FF2220E396900AFA0B7 /* benchmark.cpp */,
+				EAD19FF3220E396900AFA0B7 /* movepick.cpp */,
+				EAD19FF4220E396900AFA0B7 /* bitboard.h */,
+				EAD19FF5220E396900AFA0B7 /* pawns.h */,
+				EAD19FF6220E396900AFA0B7 /* bitcount.h */,
+				EAD19FF7220E396900AFA0B7 /* bitbase.cpp */,
+				EAD19FF8220E396900AFA0B7 /* evaluate.cpp */,
+				EAD19FF9220E396900AFA0B7 /* thread.h */,
+				EAD19FFA220E396900AFA0B7 /* movegen.h */,
+				EAD19FFB220E396900AFA0B7 /* search.cpp */,
+				EAD19FFC220E396900AFA0B7 /* movepick.h */,
+				EAD19FFD220E396900AFA0B7 /* psqtab.h */,
+				EAD19FFE220E396900AFA0B7 /* iphone.h */,
+				EAD19FFF220E396900AFA0B7 /* notation.cpp */,
+				EAD1A000220E396900AFA0B7 /* book.cpp */,
+				EAD1A001220E396900AFA0B7 /* ucioption.h */,
+				EAD1A002220E396900AFA0B7 /* evaluate.h */,
+				EAD1A003220E396900AFA0B7 /* rkiss.h */,
+				EAD1A004220E396900AFA0B7 /* notation.h */,
+				EAD1A005220E396900AFA0B7 /* pawns.cpp */,
+				EAD1A006220E396900AFA0B7 /* movegen.cpp */,
+				EAD1A007220E396900AFA0B7 /* material.cpp */,
+				EAD1A008220E396900AFA0B7 /* tt.cpp */,
+				EAD1A009220E396900AFA0B7 /* search.h */,
+				EAD1A00A220E396900AFA0B7 /* platform.h */,
+				EAD1A00B220E396900AFA0B7 /* tt.h */,
+				EAD1A00C220E396900AFA0B7 /* position.h */,
+				EAD1A00D220E396900AFA0B7 /* timeman.h */,
+				EAD1A00E220E396900AFA0B7 /* position.cpp */,
+				EAD1A00F220E396900AFA0B7 /* uci.cpp */,
+				EAD1A010220E396900AFA0B7 /* endgame.cpp */,
+			);
+			path = StockFish;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EAD19FC1220E375000AFA0B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD1A036220E396A00AFA0B7 /* position.h in Headers */,
+				EAD19FD7220E379A00AFA0B7 /* StockFish.h in Headers */,
+				EAD1A037220E396A00AFA0B7 /* timeman.h in Headers */,
+				EAD19FE5220E391800AFA0B7 /* ChessEngine-Bridging.h in Headers */,
+				EAD1A026220E396A00AFA0B7 /* movepick.h in Headers */,
+				EAD1A028220E396A00AFA0B7 /* iphone.h in Headers */,
+				EAD1A020220E396A00AFA0B7 /* bitcount.h in Headers */,
+				EAD1A011220E396A00AFA0B7 /* endgame.h in Headers */,
+				EAD1A03C220E3A6700AFA0B7 /* ChessEngine.h in Headers */,
+				EAD1A034220E396A00AFA0B7 /* platform.h in Headers */,
+				EAD1A01B220E396A00AFA0B7 /* material.h in Headers */,
+				EAD1A035220E396A00AFA0B7 /* tt.h in Headers */,
+				EAD1A016220E396A00AFA0B7 /* types.h in Headers */,
+				EAD1A02C220E396A00AFA0B7 /* evaluate.h in Headers */,
+				EAD1A018220E396A00AFA0B7 /* misc.h in Headers */,
+				EAD1A01F220E396A00AFA0B7 /* pawns.h in Headers */,
+				EAD1A02E220E396A00AFA0B7 /* notation.h in Headers */,
+				EAD1A024220E396A00AFA0B7 /* movegen.h in Headers */,
+				EAD1A02B220E396A00AFA0B7 /* ucioption.h in Headers */,
+				EAD1A023220E396A00AFA0B7 /* thread.h in Headers */,
+				EAD1A027220E396A00AFA0B7 /* psqtab.h in Headers */,
+				EAD1A033220E396A00AFA0B7 /* search.h in Headers */,
+				EAD1A02D220E396A00AFA0B7 /* rkiss.h in Headers */,
+				EAD1A012220E396A00AFA0B7 /* book.h in Headers */,
+				EAD1A01E220E396A00AFA0B7 /* bitboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EAD19FC5220E375000AFA0B7 /* ChessEngine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD19FCE220E375000AFA0B7 /* Build configuration list for PBXNativeTarget "ChessEngine" */;
+			buildPhases = (
+				EAD19FC1220E375000AFA0B7 /* Headers */,
+				EAD19FC2220E375000AFA0B7 /* Sources */,
+				EAD19FC3220E375000AFA0B7 /* Frameworks */,
+				EAD19FC4220E375000AFA0B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChessEngine;
+			productName = ChessEngine;
+			productReference = EAD19FC6220E375000AFA0B7 /* ChessEngine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD19FBD220E375000AFA0B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "MAKU Teknoloji";
+				TargetAttributes = {
+					EAD19FC5220E375000AFA0B7 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = EAD19FC0220E375000AFA0B7 /* Build configuration list for PBXProject "ChessEngine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAD19FBC220E375000AFA0B7;
+			productRefGroup = EAD19FC7220E375000AFA0B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD19FC5220E375000AFA0B7 /* ChessEngine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD19FC4220E375000AFA0B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD1A01A220E396A00AFA0B7 /* book.bin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD19FC2220E375000AFA0B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD1A03A220E396A00AFA0B7 /* endgame.cpp in Sources */,
+				EAD19FDB220E379A00AFA0B7 /* StockFishEngine.swift in Sources */,
+				EAD1A025220E396A00AFA0B7 /* search.cpp in Sources */,
+				EAD1A02A220E396A00AFA0B7 /* book.cpp in Sources */,
+				EAD19FDC220E379A00AFA0B7 /* ChessModels.swift in Sources */,
+				EAD1A019220E396A00AFA0B7 /* bitboard.cpp in Sources */,
+				EAD1A022220E396A00AFA0B7 /* evaluate.cpp in Sources */,
+				EAD19FD8220E379A00AFA0B7 /* ChessEngineProtocol.swift in Sources */,
+				EAD1A017220E396A00AFA0B7 /* misc.cpp in Sources */,
+				EAD1A015220E396A00AFA0B7 /* ucioption.cpp in Sources */,
+				EAD1A039220E396A00AFA0B7 /* uci.cpp in Sources */,
+				EAD1A031220E396A00AFA0B7 /* material.cpp in Sources */,
+				EAD19FE2220E387700AFA0B7 /* ChessBoardConstants.swift in Sources */,
+				EAD1A032220E396A00AFA0B7 /* tt.cpp in Sources */,
+				EAD19FD9220E379A00AFA0B7 /* ChessGameDelegate.swift in Sources */,
+				EAD1A021220E396A00AFA0B7 /* bitbase.cpp in Sources */,
+				EAD1A038220E396A00AFA0B7 /* position.cpp in Sources */,
+				EAD1A013220E396A00AFA0B7 /* thread.cpp in Sources */,
+				EAD1A030220E396A00AFA0B7 /* movegen.cpp in Sources */,
+				EAD1A02F220E396A00AFA0B7 /* pawns.cpp in Sources */,
+				EAD1A01C220E396A00AFA0B7 /* benchmark.cpp in Sources */,
+				EAD19FDA220E379A00AFA0B7 /* StockFish.mm in Sources */,
+				EAD1A014220E396A00AFA0B7 /* timeman.cpp in Sources */,
+				EAD1A01D220E396A00AFA0B7 /* movepick.cpp in Sources */,
+				EAD1A029220E396A00AFA0B7 /* notation.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EAD19FCC220E375000AFA0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAD19FCD220E375000AFA0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAD19FCF220E375000AFA0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_COMMA = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChessEngine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.maku.ChessEngine;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAD19FD0220E375000AFA0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_COMMA = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ChessEngine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.maku.ChessEngine;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD19FC0220E375000AFA0B7 /* Build configuration list for PBXProject "ChessEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD19FCC220E375000AFA0B7 /* Debug */,
+				EAD19FCD220E375000AFA0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD19FCE220E375000AFA0B7 /* Build configuration list for PBXNativeTarget "ChessEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD19FCF220E375000AFA0B7 /* Debug */,
+				EAD19FD0220E375000AFA0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD19FBD220E375000AFA0B7 /* Project object */;
+}
