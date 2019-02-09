@@ -5,6 +5,9 @@ This project wil have basically two parts as follows:
 ## ChessAR App
 ChessAR app is a basic implementation of a chess game. It has single player mode that you can play against your device.
 
+### Demo
+You may check the demo [here](https://drive.google.com/file/d/1FofybhFcPHZJsGa4lxnnKOxvwuhK6LIu/view?usp=sharing)
+
 ## ChessEngine Framework
 This project has a chess engine framework which is based on [StockFish](https://stockfishchess.org) chess engine and has a swift interface to be easily use in any other projects.
 
